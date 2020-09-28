@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "build": "gulp",
-    "prestart": "gulp",
     "start": "node dist/app.js",
+    "start-dev": "gulp && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
